@@ -107,20 +107,31 @@
     offset: '80%'
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
+  /**
+   * Testimonials slider
+   */
+  new Swiper('.testimonials-slider', {
+    speed: 600,
     loop: true,
-    responsive: {
-      0: {
-        items: 1
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
       },
-      768: {
-        items: 2
-      },
-      900: {
-        items: 3
+
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 20
       }
     }
   });
@@ -147,5 +158,10 @@
   $(document).ready(function() {
     $('.venobox').venobox();
   });
+
+    /**
+   * Initiate Pure Counter 
+   */
+  new PureCounter();
 
 })(jQuery);

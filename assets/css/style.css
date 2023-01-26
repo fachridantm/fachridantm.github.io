@@ -509,6 +509,11 @@ section .container {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
+  overflow: hidden;
+}
+
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
@@ -536,7 +541,8 @@ section .container {
   margin: 0 0 0 45px;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.25);
   font-size: 26px;
 }
@@ -565,28 +571,20 @@ section .container {
   z-index: 1;
 }
 
-.testimonials .owl-nav, .testimonials .owl-dots {
-  margin-top: 5px;
-  text-align: center;
+.testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
 }
 
-.testimonials .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
+.testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.testimonials .owl-dot.active {
-  background-color: #1c7d32 !important;
-}
-
-@media (max-width: 767px) {
-  .testimonials {
-    margin: 30px 10px;
-  }
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #18d26e;
 }
 
 /*--------------------------------------------------------------
@@ -658,7 +656,6 @@ section .container {
   background: #09203a;
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
-  margin: 10px
 }
 
 .services .icon-box .icon {
@@ -667,7 +664,7 @@ section .container {
   height: 64px;
   background: #1c7d32;
   border-radius: 5px;
-  transition: all .3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
   display: flex;
   align-items: center;
   justify-content: center;
