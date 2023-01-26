@@ -1027,6 +1027,14 @@ section .container {
   margin-top: 10px;
 }
 
+.portfolio-details .portfolio-info ul li+li a {
+  color: white;
+}
+
+.portfolio-details .portfolio-info ul li+li a:hover {
+  color: #12d640;
+}
+
 .portfolio-details .portfolio-info p {
   font-size: 15px;
   padding: 15px 0 0 0;
