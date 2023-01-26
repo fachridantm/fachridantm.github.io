@@ -26,15 +26,15 @@
 
 ## Sections 📚
 
-✔️ About\
-✔️ Skills\
-✔️ Education\
-✔️ Certification\
-✔️ Experience\
-✔️ Projects\
-✔️ Skills\
-✔️ Resume\
-✔️ Contact\
+✔️ About
+✔️ Skills
+✔️ Education
+✔️ Certification
+✔️ Experience
+✔️ Projects
+✔️ Resume
+✔️ Links
+✔️ Contact
 
 ## Tools Used 🛠️
 
