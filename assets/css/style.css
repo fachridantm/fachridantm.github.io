@@ -1108,6 +1108,7 @@ section .container {
 .contact .info-box {
   color: #444444;
   padding: 20px;
+  padding-bottom: 35px;
   width: 100%;
   background: #09203a;
 }
@@ -1137,15 +1138,16 @@ section .container {
 }
 
 .contact .info-box .social-links {
-  margin: 5px 0 0 68px;
+  margin: 10px 0 0 68px;
   display: flex;
 }
 
 .contact .info-box .social-links a {
-  font-size: 18px;
+  font-size: 16px;
   display: inline-block;
   color: #fff;
   line-height: 1;
+  margin-top: 6px;
   margin-right: 12px;
   transition: 0.3s;
 }
