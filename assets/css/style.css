@@ -409,6 +409,10 @@ section .container {
   color: #1c7d32;
 }
 
+.about-me .content p {
+  text-align: justify;
+}
+
 .about-me .content p:last-child {
   margin-bottom: 0;
 }
@@ -806,16 +810,36 @@ section .container {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
+  text-align: left;
+  color: white;
 }
 
 .experience .icon-box h4 a {
   color: #fff;
 }
 
+.experience .icon-box h5 {
+  text-align: left;
+  color: white;
+}
+
+.experience .icon-box h6 {
+  text-align: left;
+  color: white;
+}
+
 .experience .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  text-align: justify;
+  color: white;
+}
+
+.experience .icon-box ul {
+  font-size: 14px;
+  text-align: left;
+  color: white;
 }
 
 .experience .icon-box:hover {
@@ -1053,6 +1077,7 @@ section .container {
 .portfolio-details .portfolio-info p {
   font-size: 15px;
   padding: 15px 0 0 0;
+  text-align: justify;
 }
 
 @media (max-width: 992px) {
