@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   position: relative;
   background: transparent;
@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -228,7 +228,7 @@ h6 {
   transition: ease-in-out 0s;
   opacity: 0;
   visibility: hidden;
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 10px 0;
   border: 2px solid rgba(255, 255, 255, 0.12);
 }
@@ -454,7 +454,7 @@ section .container {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
 
@@ -681,6 +681,7 @@ section .container {
   background: #09203a;
   padding: 0px 0px 10px;
   transition: all ease-in-out 0.3s;
+  border-radius: 12px;
   display: inline-block;
 }
 
@@ -771,7 +772,12 @@ section .container {
   text-align: center;
   background: #09203a;
   padding: 40px 40px;
+  border-radius: 12px;
   transition: all ease-in-out 0.3s;
+}
+
+.experience .icon-box img {
+  border-radius: 12px;
 }
 
 .experience .icon-box .icon {
@@ -869,6 +875,9 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  position: absolute;
+  left: 370px;
+  top: 0px;
 }
 
 .portfolio #portfolio-flters {
@@ -1110,6 +1119,7 @@ section .container {
   padding: 20px;
   padding-bottom: 35px;
   width: 100%;
+  border-radius: 12px;
   background: #09203a;
 }
 
