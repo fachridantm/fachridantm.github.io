@@ -2,8 +2,6 @@
 
 > https://fachridantm.github.io/
 
-:star: Star me on GitHub — it helps!
-
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/rajaprerak/fachridantm.github.io/commits/master)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
