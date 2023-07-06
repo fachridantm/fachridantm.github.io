@@ -90,9 +90,8 @@ h6 {
 }
 
 #header h2 span {
-  color: #ffc107;
-  border-bottom: 2px solid #1c7d32;
-  padding-bottom: 6px;
+  color: #12D640;
+  text-decoration: none;
 }
 
 #header img {
@@ -129,7 +128,12 @@ h6 {
   }
   #header h2 {
     font-size: 20px;
-    line-height: 30px;
+    margin-top: 0px;
+    color: white;
+  }
+  #header h2 span {
+    color: #12D640;
+    text-decoration: none;
   }
   #header .social-links {
     margin-top: 15px;
