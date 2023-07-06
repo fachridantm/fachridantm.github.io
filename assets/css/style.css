@@ -89,14 +89,9 @@ h6 {
   color: white;
 }
 
-#header h2 span .typing {
+#header h2 span {
   color: #12D640;
   text-decoration: none;
-  display: inline-flex; 
-  align-items: center; 
-  justify-content: space-between; 
-  font-style: normal; 
-  gap: 5px;
 }
 
 #header img {
@@ -136,14 +131,9 @@ h6 {
     margin-top: 0px;
     color: white;
   }
-  #header h2 span .typing {
+  #header h2 span {
     color: #12D640;
     text-decoration: none;
-    display: inline-flex; 
-    align-items: center; 
-    justify-content: space-between; 
-    font-style: normal; 
-    gap: 5px;
   }
   #header .social-links {
     margin-top: 15px;
