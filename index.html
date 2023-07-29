@@ -69,6 +69,23 @@
         Hi, Folks! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="24px" height="24px">
       </h2>
       <h2><span class="typing" style="display: inline-flex; align-items: center; justify-content: space-between; font-style: normal; gap: 5px;"></span></h2>
+      <!-- Google Calendar Appointment Scheduling begin -->
+      <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+      <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+      <script>
+      (function() {
+        var target = document.currentScript;
+        window.addEventListener('load', function() {
+          calendar.schedulingButton.load({
+            url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3pqtWcANU9fVc-UWeJJaVo0LmejHBUQIiGA8up9kKufgrxrDtzMTty6G_JbnDkYKYzZIE8BQpP?gv=true',
+            color: '#039BE5',
+            label: "Book an appointment with Fachri!",
+            target,
+          });
+        });
+      })();
+      </script>
+      <!-- end Google Calendar Appointment Scheduling -->
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
