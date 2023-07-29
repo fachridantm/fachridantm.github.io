@@ -304,6 +304,7 @@ h6 {
 }
 
 #header.header-top .social-links,
+#header.header-top .scheduling-button-script,
 #header.header-top h2 {
   display: none;
 }
