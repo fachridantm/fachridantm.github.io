@@ -118,6 +118,11 @@ h6 {
   height: 40px;
 }
 
+#header .scheduling-button-script {
+  margin-top: 40px;
+  display: flex;
+}
+
 #header .social-links a:hover {
   background: #1c7d32;
 }
@@ -136,6 +141,9 @@ h6 {
     text-decoration: none;
   }
   #header .social-links {
+    margin-top: 20px;
+  }
+  #header .scheduling-button-script {
     margin-top: 40px;
   }
   #header .container {
