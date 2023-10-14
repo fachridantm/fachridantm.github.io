@@ -201,7 +201,7 @@
   $('.clipboard').on('click', function(event) {
     event.preventDefault();
     navigator.clipboard.writeText($(this).attr("href")).then(() => {
-      alert("Copied to Clipboard");
+      alert("Link copied!");
     });
   });
 
