@@ -157,6 +157,15 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+
+.typing {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-style: normal;
+  gap: 5px;
+}
+
 .nav-menu {
   margin-top: 35px;
 }
@@ -1162,16 +1171,13 @@ section .container {
 
 .contact .info-box .social-links {
   margin: 5px 0 0 68px;
-  display: flex;
 }
 
 .contact .info-box .social-links a {
-  font-size: 16px;
+  font-size: 18px;
   display: inline-block;
   color: #fff;
-  line-height: 1;
-  margin-top: 6px;
-  margin-right: 12px;
+  margin-right: 8px;
   transition: 0.3s;
 }
 
@@ -1295,6 +1301,12 @@ section .container {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #15bb62;
+}
+
+@media (max-width: 992px) {
+  .contact .info-box .social-links a {
+    font-size: 16px;
+  }
 }
 
 @-webkit-keyframes animate-loading {
