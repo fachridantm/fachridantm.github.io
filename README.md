@@ -24,16 +24,12 @@
 
 ## Sections 📚
 
-✔️ About
+✔️ About & Recommendations
 ✔️ Skills & Tools
-✔️ Recommendations
-✔️ Education
-✔️ Certifications
-✔️ Awards
+✔️ Education, Certifications, & Awards
 ✔️ Experience
 ✔️ Projects
 ✔️ Resume
-✔️ Links
 ✔️ Contact
 
 ## Tools Used 🛠️
