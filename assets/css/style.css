@@ -143,9 +143,6 @@ h6 {
   #header .social-links {
     margin-top: 20px;
   }
-  #header .scheduling-button-script {
-    margin-top: 40px;
-  }
   #header .container {
     display: flex;
     flex-direction: column;
@@ -314,7 +311,8 @@ h6 {
 
 #header.header-top .social-links,
 #header.header-top .scheduling-button-script,
-#header.header-top h2 {
+#header.header-top h2,
+#header.header-top .credits {
   display: none;
 }
 
@@ -1332,11 +1330,10 @@ section .container {
 --------------------------------------------------------------*/
 .credits {
   position: fixed;
-  right: 15px;
+  text-align: center;
   bottom: 15px;
   font-size: 13px;
   color: #fff;
-  z-index: 1;
 }
 
 .credits a {
@@ -1346,12 +1343,4 @@ section .container {
 
 .credits a:hover {
   color: #fff;
-}
-
-@media (max-width: 992px) {
-  .credits {
-    left: 50%;
-    right: 0;
-    transform: translateX(-50%);
-  }
 }
