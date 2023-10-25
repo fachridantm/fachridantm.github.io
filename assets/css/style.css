@@ -332,7 +332,7 @@ h6 {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 481px) {
   #header.header-top {
     height: 60px;
   }
@@ -367,7 +367,7 @@ section .container {
   padding: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 481px) {
   section {
     top: 120px;
   }
