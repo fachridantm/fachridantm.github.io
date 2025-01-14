@@ -521,6 +521,7 @@ section .container {
   align-items: center;
   padding: 20px;
   background: #09203a;
+  border-radius: 12px;
   transition: ease-in-out 0.3s;
 }
 
