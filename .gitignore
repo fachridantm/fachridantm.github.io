@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
 
+### Webstorm
+.idea/
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
